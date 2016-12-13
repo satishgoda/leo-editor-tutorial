@@ -1,4 +1,19 @@
-@language python
+from urllib import urlopen
+from HTMLParser import HTMLParser
+
+class TitleParser(HTMLParser):
+    def __init__(self):
+        HTMLParser.__init__(self)
+        self.match = False
+        self.title = ''
+
+    def handle_starttag(self, tag, attributes):
+        self.match = True if tag == 'title' else False
+
+    def handle_data(self, data):
+        if self.match:
+            self.title = data
+            self.match = False
 
 VOLUME = 'II'
 TOTAL_CHAPTERS = 42
@@ -8,7 +23,14 @@ copied_position = p.copy()
 
 for index in range(1, TOTAL_CHAPTERS+1):
     new_node = copied_position.insertAsLastChild()
-    new_node.h = "@chapter {0} Chapter {1:02} - ".format(VOLUME, index)
-    new_node.b = URL.format(VOLUME, index)
+    FULLURL = URL.format(VOLUME, index)
+    new_node.b = FULLURL
+    html_string = str(urlopen(FULLURL).read())
+    parser = TitleParser()
+    parser.feed(html_string)
+    title = parser.title
+    chapter_name = title.split(':')[-1].strip()
+    new_node.h = "@chapter {0} Chapter {1:02} - {2}".format(VOLUME, index, chapter_name)
+    g.es(chapter_name)
 
 c.redraw_now()
