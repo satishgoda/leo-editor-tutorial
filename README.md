@@ -10,3 +10,4 @@ An in-depth tutorial for Leo IDE/PIM http://leoeditor.com
 * http://blog.suspended-chord.info/2013/09/20/leo-things-done
 * http://blog.suspended-chord.info/2014/01/28/intro-to-leo-scripting
 * http://blog.suspended-chord.info/2013/11/04/nodewatch-for-productivity
+* https://github.com/gatesphere/rpg.leo
