@@ -1,5 +1,15 @@
+"""
+This script is supposed to be run from within Leo.
+
+Select the script node and then click on the "script-button" button to create a clickable button.
+
+Select a outline node under which the chapter nodes must be created.
+Click on the button generated for this script.
+"""
+
 from urllib import urlopen
 from HTMLParser import HTMLParser
+
 
 class TitleParser(HTMLParser):
     def __init__(self):
