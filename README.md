@@ -5,6 +5,7 @@ An in-depth tutorial for Leo IDE/PIM http://leoeditor.com
 # References
 
 * https://github.com/leo-editor/leo-editor
+* https://groups.google.com/forum/#!forum/leo-editor
 * http://leo-editor.readthedocs.io/en/latest
 * http://blog.suspended-chord.info/2013/02/01/leo-is-love
 * http://blog.suspended-chord.info/2013/09/20/leo-things-done
