@@ -48,12 +48,12 @@
 @others</t>
 <t tx="sgoda.20161214093256.1">g.es(add(2, 3))</t>
 <t tx="sgoda.20161214094155.1"></t>
-<t tx="sgoda.20161214094238.1">g.es("Right click on the button and choose the appropriate action")</t>
+<t tx="sgoda.20161214094238.1">@language python
+
+g.es("Right click on the button and choose the appropriate action")</t>
 <t tx="sgoda.20161214094346.1">g.es(sub(2, 3))</t>
-<t tx="sgoda.20161214094434.1">@language python
-@others</t>
-<t tx="sgoda.20161214094535.1">@language python
-@others</t>
+<t tx="sgoda.20161214094434.1">@others</t>
+<t tx="sgoda.20161214094535.1">@others</t>
 <t tx="sgoda.20161214094613.1"></t>
 <t tx="sgoda.20161214094633.1">def add(a, b):
     return a+b</t>
