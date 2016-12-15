@@ -1,7 +1,7 @@
 About
 =====
 
-Create node **@button hello world**::
+Create node **@button hello world @color=pink**::
 
   g.es("Hello World")
 
