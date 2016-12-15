@@ -9,7 +9,7 @@ About::
 Files::
 
   pythonWorkflows.leo
-  leoeditor_python_workflows.png
+.. image::  leoeditor_python_workflows.png
   
 RenPy
 ------
@@ -17,3 +17,5 @@ RenPy
 About::
 
   This folder contains an example of how Leo was used in editing/viewing the files for a RenPy project.
+  
+.. image:: RenPy/leo_renpy_1.png
