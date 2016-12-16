@@ -15,3 +15,5 @@ In an empty .leo file, setup the following outline node structure::
             - @item close-window
 
 For the body of the @item nodes, any text you enter will be used as the name of the menu item. Otherwise the name will be inferrred from the command itself.
+
+.. image:: leo_customization_menus.png
