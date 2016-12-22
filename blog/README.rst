@@ -2,9 +2,19 @@
 Thu, Dec 22, 2016
 ================
 
-Automating a part of the rst documentation for my experiments in gaffer.
+**Concerting outline headings to sections**
 
-images.py::
+*make_sections.py*::
+
+  copied_node = p.copy()
+
+  for child in copied_node.children():
+      old_header = child.h
+      child.h = "<" "<" + old_header + ">" ">"
+
+**Automating a part of the rst documentation for my experiments in gaffer.**
+
+*images.py*::
 
   copied_position = p.copy()
 
