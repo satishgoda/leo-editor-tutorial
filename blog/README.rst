@@ -1,4 +1,26 @@
 
+Thu, Dec 22, 2016
+================
+
+Automating a part of the rst documentation for my experiments in gaffer.
+
+images.py::
+
+  copied_position = p.copy()
+
+  count = 1
+
+  for line in p.b.split('\n'):
+      if not line.startswith(".. image") :
+          continue
+      node = copied_position.insertAsLastChild()
+      node.h = "image_{0}".format(count)
+      count += 1
+      node.b = line
+
+  c.redraw_now()
+
+
 Fri, Dec 16, 2016
 ==================
 
