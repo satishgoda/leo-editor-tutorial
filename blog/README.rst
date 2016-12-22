@@ -2,7 +2,7 @@
 Thu, Dec 22, 2016
 ================
 
-**Concerting outline headings to sections**
+**Converting outline headings to sections**
 
 *make_sections.py*::
 
