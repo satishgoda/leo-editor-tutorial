@@ -1,3 +1,39 @@
+Fri, Dec 23, 2016
+===============
+
+**Mapping file system directories to outline nodes**
+
+*map_fs_dirs_to_onodes.py*::
+
+  @path apps
+
+  @language python
+
+  import os
+
+  childrenNames = [p.h for p in p.children()]
+
+  copied_p = p.copy()
+
+  def nodeCreationStatus(nodeName, status, color):
+      msg = 'Node {0} {1}'.format(nodeName, status)
+      g.es(msg, color=color)
+
+  appNames = sorted(os.listdir('./'))
+
+  for appName in appNames:
+      if appName in childrenNames:
+          nodeCreationStatus(appName, 'already exists', 'red')
+          continue
+
+      appNode = copied_p.insertAsLastChild()
+
+      appNode.h = appName
+      appNode.b = '@path ' + appName
+
+      nodeCreationStatus(appName, 'created', 'green')
+
+  c.redraw_now()
 
 Thu, Dec 22, 2016
 ================
