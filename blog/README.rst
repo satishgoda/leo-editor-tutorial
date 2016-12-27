@@ -1,7 +1,8 @@
 Tue, Dec 27, 2016
 ===============
 
-../sandbox/mute_clean_nodes.py
+* https://github.com/satishgoda/leo-editor-tutorial/blob/master/sandbox/mute_clean_nodes.py
+* https://github.com/satishgoda/leo-editor-tutorial/blob/master/sandbox/load_modules.py
 
 Fri, Dec 23, 2016
 ===============
