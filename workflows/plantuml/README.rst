@@ -1,8 +1,12 @@
 .. contents:: Table of Contents
-   :backlinks: entry
+   :backlinks: top
+   
+You can join the discussion on this topic at https://groups.google.com/forum/#!topic/leo-editor/hNkQG5n6X6M
+
 
 Leo + PlantUML Workflow
 ======================
+
 
 1. java -jar plantuml.jar (http://plantuml.com/gui)
 2. Point to the directory where the uml diagrams will be saved
