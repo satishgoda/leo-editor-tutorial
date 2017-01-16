@@ -1,15 +1,29 @@
+@language python
+
 import os
 
 cwd = os.getcwd()
 
-for item in os.listdir('.'):
+files = os.listdir(cwd)
+
+
+g.es("\nContents of {0}\n".format(cwd), color='green')
+g.es("\n")
+# g.es("\n".join(files))
+
+for entry in files:
+    color = 'black'
     suffix = ''
-    
-    if os.path.isdir(item):
+
+    if os.path.isfile(entry):
+        color = 'cyan'
+    elif os.path.isdir(entry):
+        color = 'blue'
         suffix = '/'
     
-    fitem = "{0}{1}".format(item, suffix)
+    if entry.startswith('.'):
+        color = 'gray'
     
-    g.es(fitem)
+    g.es("{0}{1}".format(entry, suffix), color=color)
 
-g.es(cwd)
+g.es("\n")
