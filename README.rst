@@ -1,8 +1,16 @@
-# About 
+.. contents::
+  :backlinks: top
 
-An in-depth tutorial for Leo IDE/PIM http://leoeditor.com
+About 
+=====
 
-# References
+An in-depth tutorial for Leo IDE/PIM 
+
+* http://leoeditor.com 
+* https://github.com/leo-editor/leo-editor
+
+References
+=========
 
 * https://github.com/leo-editor/leo-editor
 * https://groups.google.com/forum/#!forum/leo-editor
