@@ -2,7 +2,8 @@
 ##onode.b.dir.lang @language python
 
 """
-When run on another node with the following script in the body, this script creates the section nodes as children of the selected node.
+When run on another node with the following script in the body, 
+this script creates the section nodes as children of the selected node.
 
 @language javascript
 <<requires>>
