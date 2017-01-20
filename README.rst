@@ -9,6 +9,13 @@ An in-depth tutorial for Leo IDE/PIM
 * http://leoeditor.com 
 * https://github.com/leo-editor/leo-editor
 
+Quick Overview of Leo
+===================
+
+Watch the slide shows at the link below to get a hang of what Leo can do
+
+* http://leoeditor.com/slides.html
+
 References
 =========
 
