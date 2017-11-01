@@ -4,11 +4,12 @@ Wed, Nov 01, 2017
 Back to Leo blogging. It has been a while since I used Leo, but today I had to dig it up to solve a problem at hand.
 
 button-dirview-vim::
-   @language python
 
-   import os
+  @language python
 
-   os.system("gvim {0}".format('./'))
+  import os
+
+  os.system("gvim {0}".format('./'))
 
 
 Tue, Dec 27, 2016
