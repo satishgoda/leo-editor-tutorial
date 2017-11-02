@@ -1,5 +1,19 @@
+Thu, Nov 02, 2017
+================
+
+Today I asked my colleague to test the command for launching leo with the specified file from her machine (to check my launcher wrapper setup). It worked well, but then she asked me what is Leo? And in the next 5 minutes, I demonstrated the following features that had her hooked to Leo
+
+* Finding in outline/Sub outline
+* Running python code
+* Reorganizing nodes
+* In file source code storage and refying on demand.
+* Pointed her to http://leoeditor.com/
+
+A good day indeed. :)
+
+
 Wed, Nov 01, 2017
-===============
+================
 
 Back to Leo blogging. It has been a while since I used Leo, but today I had to dig it up to solve a problem at hand.
 
