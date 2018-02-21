@@ -20,7 +20,13 @@ Leo in the News
 ================
 
 * https://refiction.com/resource-reviews/leo-editor-for-writers
+
+    Outliners impose structure on documents. Sadly, they can also impose structure on our thinking, making creativity a lot harder. Leo is different. Instead of imposing structure, it allows you to impose your own infrastructure, and then be as creative as you want. This brings the necessary chaos of creativity to heel when it is time to produce the document. The node structure creates ultimate flexibility when it comes to ordering scenes in chapter. Say good-bye to copy and paste and hello to drag and drop.
+
 * http://blog.suspended-chord.info/2013/02/01/leo-is-love
+
+    First off the manual installation of all the dependencies for running Leo is explained. Then the configuration system in Leo is briefly explained. Finally the process of creating buttons by inclusing reusable code sections is explained.
+
 * http://blog.suspended-chord.info/2013/09/20/leo-things-done
 * http://blog.suspended-chord.info/2014/01/28/intro-to-leo-scripting
 * http://blog.suspended-chord.info/2013/11/04/nodewatch-for-productivity
