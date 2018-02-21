@@ -35,6 +35,14 @@ Summary of the article
 * http://blog.suspended-chord.info/2014/01/28/intro-to-leo-scripting
 * http://blog.suspended-chord.info/2013/11/04/nodewatch-for-productivity
 
+Scripting Leo
+=============
+The power of Leo is accentuated by its integrated scripting ecosystem using Python and Qt. Each outline becomes a living and breathing document with its own behavior and user interface.
+
+* http://leoeditor.com/slides/scripting-leo/slide-001.html
+* http://leoeditor.com/scripting.html
+* http://blog.suspended-chord.info/2014/01/28/intro-to-leo-scripting
+
 References
 =========
 
