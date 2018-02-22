@@ -15,3 +15,5 @@ g.es(sys.version)
 Press CTRL+B to execute code. 
 
 **If nothing is selected, entire body will be executed.**
+
+You can also select the Outline node and click the ``script-button`` below the ``File Menu`` to create an executable button in the user interface.
